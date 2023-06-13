@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Git operation
+
+### `git pull origin main`
+Update local main branch based on remote git branch
+
+### `git branch --contain`
+Show current working branch
+
+### `git commit -m "hogehoge"`
+Commit change with specific message
+
+### `git push origin branch`
+Push to remote branch
+
+### `git commit --amend --no-edit`
+Add commit log to latest commit log

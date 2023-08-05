@@ -13,7 +13,7 @@ const ChatHeader = () => {
       <div className="chatHeaderLeft">
         <h3>
           <span className="chatHeaderHash">#</span>
-          Udemy
+          Discord
         </h3>
       </div>
 

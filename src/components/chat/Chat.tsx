@@ -21,8 +21,10 @@ const Chat = () => {
       <div className="chatInput">
         <AddBoxIcon />
         <form>
-          <input type="text" placeholder="#send message to Udemy" />
-          <button type="submit" className="chatInputButton">send</button>
+          <input type="text" placeholder="#send message to Discord" />
+          <button type="submit" className="chatInputButton">
+            send
+          </button>
         </form>
 
         <div className="chatInputIcons">

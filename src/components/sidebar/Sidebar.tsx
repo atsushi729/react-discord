@@ -13,7 +13,7 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 const Sidebar = () => {
   // Get user state
-  const user = useAppSelector((state) => state.user);
+  const user = useAppSelector((state) => state.user.user);
   const { documents: channels } = useCollection("channels");
   const db = getFirestore();
 
